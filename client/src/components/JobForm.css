@@ -1,0 +1,22 @@
+.job-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.job-form h3{
+    margin-bottom: 9px;
+}
+
+.job-form button{
+    margin-top: 15px;
+}
+
+
+.job-form-input{
+    height: 30px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    border: 1px grey solid;
+    background-color: rgb(40, 40, 40);
+}

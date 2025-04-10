@@ -1,0 +1,39 @@
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    min-width: 300px;
+    max-width: 300px;
+    box-sizing: border-box;
+
+}
+
+.login-container button{
+    width: 50%;
+}
+
+.login-input-text{
+    height: 30px;
+}
+
+.login-input-text:focus{
+    border-color: blueviolet;
+}
+
+.login-button-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
