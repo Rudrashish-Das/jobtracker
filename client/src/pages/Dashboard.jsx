@@ -21,7 +21,6 @@ export default function Dashboard() {
   };
 
   const handleDelete = async (id) => {
-    console.log(id);
     if (!id) return;
     await deleteJob(id);
     loadJobs();
